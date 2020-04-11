@@ -1,0 +1,637 @@
+                    .encabezado {
+                        background-color: rgb(0, 0, 0);
+                        height: 7vh;
+                        width: 100%;
+                    }
+                    
+                    body {
+                        padding: 0%;
+                        margin: 0%;
+                    }
+                    
+                    .row {
+                        margin: 0%;
+                    }
+                    /*------------------redes-----*/
+                    
+                    #redes:hover {
+                        background-color: rgb(100, 103, 104);
+                    }
+                    
+                    #redes {
+                        background-color: rgb(179, 180, 180);
+                        position: fixed;
+                        top: 40%;
+                        bottom: 0px;
+                        right: 0px;
+                        left: auto;
+                        width: 4vw;
+                        height: 30vh;
+                        border-radius: 8px;
+                    }
+                    
+                    #contenedorredes {
+                        height: 25%;
+                        width: 100%;
+                        border-radius: 8px;
+                        position: relative;
+                        top: 0px;
+                        bottom: 0px;
+                    }
+                    
+                    .logos-redes {
+                        text-align: center;
+                        font-size: 30px;
+                        color: rgb(31, 29, 39);
+                        position: relative;
+                        top: 5px;
+                        bottom: 0px;
+                        display: table-column;
+                        margin-top: 8px;
+                        background-color: transparent;
+                        padding: 2px;
+                    }
+                    
+                    .logos-redes:hover {
+                        color: rgb(90, 160, 218);
+                        padding: 2px;
+                    }
+                    /*----------------------------*/
+                    
+                    #logo-navbar {
+                        color: rgb(15, 25, 51);
+                        size: 10vh;
+                    }
+                    
+                    #text-header {
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        color: rgb(255, 255, 255);
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bolder;
+                        font-size: 14px;
+                        text-align: center;
+                        -webkit-transform: translateY(-50%);
+                        -moz-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        -o-transform: translateY(-50%);
+                    }
+                    
+                    .main-navbar {
+                        height: 14vh;
+                        width: 100%;
+                        border-bottom: solid rgba(116, 116, 116, 0.356);
+                    }
+                    
+                    .contenedor-navbar {
+                        padding-left: 27vw;
+                    }
+                    
+                    #text-navbar {
+                        color: rgb(255, 255, 255);
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        margin-right: 15px;
+                        border-radius: 4px;
+                    }
+                    
+                    #text-navbar:hover {
+                        color: rgb(255, 255, 255);
+                        border-bottom: solid rgba(39, 39, 39, 0.65);
+                        text-decoration: none;
+                    }
+                    
+                    .menu {
+                        position: relative;
+                        top: 30%;
+                        left: 20vw;
+                        display: inline;
+                        margin-left: 8vw;
+                        padding: 0%;
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                    }
+                    
+                    #logo-navbar {
+                        color: rgba(62, 188, 247, 0.514);
+                    }
+                    /*-------------------------reloj--------------*/
+                    
+                    .hora {
+                        height: 70vh;
+                        background: #bdc3c7;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    }
+                    
+                    #mensaje {
+                        position: relative;
+                        top: 8vh;
+                        left: 38vw;
+                        background-color: rgb(129, 22, 22);
+                        color: rgb(255, 255, 255);
+                        padding: 2vw 4vw;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: 18px;
+                    }
+                    
+                    .contenedor-anuncio {
+                        height: 20vh;
+                    }
+                    /*----------------slider---------------------*/
+                    
+                    .contenedor-slider {
+                        height: 110vh;
+                        z-index: 10;
+                        size: cover;
+                    }
+                    
+                    .logo {
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 10%;
+                        margin: 0 auto;
+                        z-index: 9999999;
+                    }
+                    /*----------*/
+                    
+                    .logo1 {
+                        height: 100vh;
+                        margin: 0%;
+                        padding: 0%;
+                        z-index: 100;
+                    }
+                    
+                    #text-logo1 {
+                        z-index: 100;
+                        width: 30vw;
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        margin: 0%;
+                        padding: 0%;
+                        -webkit-transform: translateX(-50%);
+                        -moz-transform: translateX(-50%);
+                        -ms-transform: translateX(-50%);
+                        -o-transform: translateX(-50%);
+                    }
+                    
+                    #mensaje-logo1 {
+                        z-index: 100;
+                        margin-top: 15vh;
+                        font-family: sans-serif;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-align: center;
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    #mensaje-box1 {
+                        position: relative;
+                        top: 8vh;
+                        left: 30vw;
+                        background-color: rgb(129, 22, 22);
+                        color: rgb(255, 255, 255);
+                        padding: 2vw 4vw;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: 18px;
+                    }
+                    /*-----------------------siguiente paso----------------------*/
+                    
+                    .siguientepaso {
+                        height: 80VH;
+                        width: 100%;
+                        background: #D3CCE3;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to top, #E9E4F0, #D3CCE3);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to top, #E9E4F0, #D3CCE3);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    }
+                    
+                    #titulo-anuncios {
+                        position: relative;
+                        top: 12vh;
+                        font-family: sans-serif;
+                        font-size: 45px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: rgb(0, 0, 0);
+                    }
+                    
+                    #mensaje-siguiente {
+                        margin-top: 18vh;
+                        font-family: sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-align: center;
+                        color: rgb(0, 0, 0);
+                    }
+                    
+                    .box {
+                        width: 12vw;
+                        position: relative;
+                        left: 35vw;
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        padding: 1.5vw 2vw;
+                        background-color: rgb(11, 22, 47);
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        margin: 2vw 4vw 0vw 0vw;
+                    }
+                    
+                    .box:hover {
+                        background-color: rgb(255, 255, 255);
+                        color: rgb(0, 0, 0);
+                        border: solid black;
+                        text-decoration: none;
+                        transition: 400ms;
+                        -webkit-transition: 400ms;
+                        -moz-transition: 400ms;
+                        -ms-transition: 400ms;
+                        -o-transition: 400ms;
+                    }
+                    /*----------------------------actividades----------*/
+                    
+                    .actividades {
+                        position: relative;
+                        top: 40vh;
+                        height: 110vh;
+                        width: 100%;
+                        background: #0F2027;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    }
+                    
+                    .titulo {
+                        text-align: center;
+                        font-family: arial;
+                        font-weight: bolder;
+                        color: rgb(255, 255, 255);
+                        margin-top: 15vh;
+                        font-size: 34px;
+                    }
+                    
+                    .contenedor-actividades {
+                        position: relative;
+                        top: 15vh;
+                        height: 54vh;
+                        width: 20vw;
+                    }
+                    
+                    #size-img {
+                        height: 50vh;
+                        width: 20vw;
+                        -webkit-box-shadow: -2px -5px 23px -1px rgba(255, 255, 255, 1);
+                        -moz-box-shadow: -2px -5px 23px -1px rgba(255, 255, 255, 1);
+                        box-shadow: -2px -5px 23px -1px rgba(255, 255, 255, 1);
+                    }
+                    
+                    .text-info {
+                        text-align: center;
+                        color: rgb(225, 225, 231);
+                        width: 20vw;
+                        height: 4vh;
+                    }
+                    
+                    .informacion:hover {
+                        color: rgb(23, 23, 24);
+                        background-color: rgb(218, 218, 218);
+                        text-decoration: none;
+                        transition: 600ms;
+                        -webkit-transition: 600ms;
+                        -moz-transition: 600ms;
+                        -ms-transition: 600ms;
+                        -o-transition: 600ms;
+                    }
+                    
+                    .informacion {
+                        padding: 10px 0px;
+                        margin: 0px;
+                        width: 280px;
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        text-align: center;
+                        font-weight: bold;
+                        text-decoration: none;
+                        color: rgb(185, 185, 185);
+                        background-color: rgb(10, 10, 10);
+                    }
+                    /*---------------------------pastores---------------------------*/
+                    
+                    .pastores {
+                        height: 105vh;
+                        background: #ECE9E6;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to top, #FFFFFF, #ECE9E6);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    }
+                    
+                    #parrafo {
+                        text-align: justify;
+                        font-family: 'Lucida Sans';
+                        font-size: 14px;
+                        font-weight: 400;
+                        position: relative;
+                        top: 35vh;
+                        left: 5vw;
+                    }
+                    
+                    #titulo-pastores {
+                        position: relative;
+                        top: 30vh;
+                        left: 35vw;
+                        text-align: center;
+                        font-family: arial;
+                        font-weight: bolder;
+                        color: rgb(5, 5, 5);
+                        margin-top: 15vh;
+                        font-size: 34px;
+                    }
+                    
+                    #foto-pastores {
+                        position: relative;
+                        top: 40vh;
+                        left: 10vw;
+                        height: 300px;
+                        width: 300px;
+                        border: solid black;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                    }
+                    
+                    .transmision2 {
+                        position: relative;
+                        top: 40vh;
+                        width: 12vw;
+                        left: 25vw;
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        padding: 1.5vw 2vw;
+                        background-color: rgb(110, 22, 22);
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        margin: 2vw 4vw 0vw 0vw;
+                        border-radius: 8px;
+                    }
+                    
+                    .transmision2:hover {
+                        background-color: rgb(255, 255, 255);
+                        color: rgb(73, 17, 17);
+                        border: solid rgb(110, 22, 22);
+                        text-decoration: none;
+                    }
+                    /*---------------------------jovenees-------------*/
+                    
+                    .logo2 {
+                        height: 100vh;
+                        margin: 0%;
+                        padding: 0%;
+                        background: rgba(235, 87, 87, 0.746);
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to top, #3d3a3a50, rgba(95, 165, 245, 0.39)), url(https://live.staticflickr.com/2102/2677605718_a85e0c077c_z.jpg);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to top, #42414142, rgba(62, 188, 247, 0.527)), url(https://live.staticflickr.com/2102/2677605718_a85e0c077c_z.jpg);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                        background-size: cover;
+                        background-attachment: fixed;
+                    }
+                    
+                    .mensaje-left {
+                        position: relative;
+                        top: 20vh;
+                        left: 10vw;
+                        font-size: 28px;
+                        font-weight: 600;
+                        font-family: sans-serif;
+                        text-align: justify;
+                        color: rgb(245, 251, 251);
+                    }
+                    
+                    .mensaje-left1 {
+                        position: relative;
+                        top: 20vh;
+                        left: 10vw;
+                        font-size: 28px;
+                        font-weight: 600;
+                        font-family: sans-serif;
+                        text-align: justify;
+                        color: rgb(21, 191, 197);
+                    }
+                    
+                    .icons-redes {
+                        position: relative;
+                        top: 20vh;
+                        text-align: center;
+                        font-size: 40px;
+                        margin-right: 2vw;
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    .yt {
+                        margin: 0vw 2vw;
+                    }
+                    
+                    .transmision {
+                        position: relative;
+                        top: 25vh;
+                        width: 12vw;
+                        left: 12vw;
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        padding: 1.5vw 2vw;
+                        background-color: rgb(16, 161, 16);
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        margin: 2vw 4vw 0vw 0vw;
+                        border-radius: 8px;
+                    }
+                    
+                    .transmision:hover {
+                        background-color: rgb(255, 255, 255);
+                        color: rgb(19, 70, 4);
+                        border: solid rgb(16, 161, 16);
+                        text-decoration: none;
+                    }
+                    
+                    #youtube {
+                        width: 45vw;
+                        height: 100%;
+                        position: relative;
+                        top: 20vh;
+                        border-radius: 8px;
+                        border: solid black;
+                        -webkit-box-shadow: 3px 10px 24px 1px rgba(105, 102, 140, 0.55);
+                        -moz-box-shadow: 3px 10px 24px 1px rgba(105, 102, 140, 0.55);
+                        box-shadow: 3px 10px 24px 1px rgba(105, 102, 140, 0.55);
+                    }
+                    /*-------------------jovenes--------------------*/
+                    
+                    .jovenes {
+                        position: relative;
+                        top: 40vh;
+                        height: 100vh;
+                        margin: 0%;
+                        padding: 0%;
+                        background: #EB5757;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to top, #3d3a3a50, rgba(255, 255, 255, 0)), url(https://scontent.flim24-1.fna.fbcdn.net/v/t1.0-9/91552645_1678663138942953_2147982748969598976_o.jpg?_nc_cat=103&_nc_sid=9267fe&_nc_eui2=AeFUhbgRzI_U9-GUK2kPFDLQ9Yd7VcssACv1h3tVyywAKyqNBQoyZ40CHN7Mg55m_Dh7Swsxwyrnkc-rRD4MLqIy&_nc_oc=AQl5yrDkr4EhSExH6VJC1FPSXWf9HPeG4iVm8jurtTS-ce59D6RCi3v88sqmZ-G3YUQ&_nc_ht=scontent.flim24-1.fna&oh=31c0cb06fcc5105bfd160a9bea0b7849&oe=5EB6E55D);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to top, #42414142, rgba(255, 255, 255, 0)), url(https://scontent.flim24-1.fna.fbcdn.net/v/t1.0-9/91552645_1678663138942953_2147982748969598976_o.jpg?_nc_cat=103&_nc_sid=9267fe&_nc_eui2=AeFUhbgRzI_U9-GUK2kPFDLQ9Yd7VcssACv1h3tVyywAKyqNBQoyZ40CHN7Mg55m_Dh7Swsxwyrnkc-rRD4MLqIy&_nc_oc=AQl5yrDkr4EhSExH6VJC1FPSXWf9HPeG4iVm8jurtTS-ce59D6RCi3v88sqmZ-G3YUQ&_nc_ht=scontent.flim24-1.fna&oh=31c0cb06fcc5105bfd160a9bea0b7849&oe=5EB6E55D);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                        background-size: cover;
+                    }
+                    
+                    .mensaje-left2 {
+                        position: relative;
+                        top: 20vh;
+                        left: 10vw;
+                        font-size: 28px;
+                        font-weight: 600;
+                        font-family: sans-serif;
+                        text-align: justify;
+                        color: rgb(253, 232, 173);
+                    }
+                    
+                    .mensaje-left3 {
+                        position: relative;
+                        top: 20vh;
+                        left: 10vw;
+                        font-size: 28px;
+                        font-weight: 600;
+                        font-family: sans-serif;
+                        text-align: justify;
+                        color: rgb(165, 255, 130);
+                    }
+                    
+                    .transmision1 {
+                        position: relative;
+                        top: 25vh;
+                        width: 12vw;
+                        left: 12vw;
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        padding: 1.5vw 2vw;
+                        background-color: rgb(144, 9, 111);
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        margin: 2vw 4vw 0vw 0vw;
+                        border-radius: 8px;
+                    }
+                    
+                    .transmision1:hover {
+                        background-color: rgb(255, 255, 255);
+                        color: rgb(70, 4, 45);
+                        border: solid rgb(144, 9, 111);
+                        text-decoration: none;
+                    }
+                    
+                    #fb {
+                        width: 30vw;
+                        height: 80vh;
+                        position: relative;
+                        top: 10vh;
+                        left: 10vw;
+                        border-radius: 8px;
+                        border: solid black;
+                    }
+                    /*---------------ofrendas---------------------*/
+                    
+                    .pie {
+                        position: relative;
+                        top: 318vh;
+                        height: 80vh;
+                        background: #232526;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to right, #414345, #232526);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to right, #414345, #232526);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    }
+                    
+                    #direcciones {
+                        padding-bottom: 5vw;
+                        height: 500px;
+                    }
+                    
+                    #columnas {
+                        width: 200px;
+                        height: 350px;
+                        display: inline-table;
+                        margin-top: 100px;
+                        margin-left: 5px;
+                        margin-right: 50px;
+                        margin-bottom: 0px;
+                        position: relative;
+                        left: 15%;
+                    }
+                    
+                    #titulocolumna {
+                        width: 200px;
+                        height: 95px;
+                        position: relative;
+                        top: 80px;
+                    }
+                    
+                    #primerorden {
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-family: sans-serif;
+                        text-align: left;
+                        color: #f5f5f5;
+                    }
+                    
+                    #barrita {
+                        width: 120px;
+                        height: 4px;
+                        display: inline-table;
+                        margin-top: 0px;
+                        margin-left: 0px;
+                        margin-right: 0px;
+                        margin-bottom: 0px;
+                        background-color: #1b1a1a;
+                    }
+                    
+                    #hipervinculos {
+                        width: 200px;
+                        height: 50px;
+                        text-decoration: none;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 14px;
+                        color: #ffffff;
+                        position: relative;
+                        top: 15px;
+                        font-weight: 500;
+                    }
+                    
+                    #hipervinculos:hover {
+                        color: rgb(168, 165, 165);
+                    }
