@@ -1,2 +1,0 @@
-# iglesiacristovive.github.io
- desarrolloweb

@@ -53,7 +53,7 @@
                     }
                     
                     .logos-redes:hover {
-                        color: rgb(90, 160, 218);
+                        color: rgb(255, 255, 255);
                         padding: 2px;
                     }
                     /*----------------------------*/
@@ -66,16 +66,11 @@
                     #text-header {
                         position: relative;
                         top: 50%;
-                        transform: translateY(-50%);
                         color: rgb(255, 255, 255);
                         font-family: Arial, Helvetica, sans-serif;
                         font-weight: bolder;
                         font-size: 14px;
                         text-align: center;
-                        -webkit-transform: translateY(-50%);
-                        -moz-transform: translateY(-50%);
-                        -ms-transform: translateY(-50%);
-                        -o-transform: translateY(-50%);
                     }
                     
                     .main-navbar {
@@ -85,7 +80,7 @@
                     }
                     
                     .contenedor-navbar {
-                        padding-left: 27vw;
+                        padding-left: 30vw;
                     }
                     
                     #text-navbar {
@@ -104,7 +99,7 @@
                     .menu {
                         position: relative;
                         top: 30%;
-                        left: 20vw;
+                        left: 35vw;
                         display: inline;
                         margin-left: 8vw;
                         padding: 0%;
@@ -118,7 +113,7 @@
                     /*-------------------------reloj--------------*/
                     
                     .hora {
-                        height: 70vh;
+                        height: 80vh;
                         background: #bdc3c7;
                         /* fallback for old browsers */
                         background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
@@ -129,7 +124,7 @@
                     
                     #mensaje {
                         position: relative;
-                        top: 8vh;
+                        top: -280px;
                         left: 38vw;
                         background-color: rgb(129, 22, 22);
                         color: rgb(255, 255, 255);
@@ -139,6 +134,7 @@
                         font-weight: bold;
                         text-align: center;
                         font-size: 18px;
+                        text-decoration: none;
                     }
                     
                     .contenedor-anuncio {
@@ -193,18 +189,27 @@
                         color: rgb(255, 255, 255);
                     }
                     
+                    .msj {
+                        text-align: center;
+                    }
+                    
                     #mensaje-box1 {
                         position: relative;
                         top: 8vh;
                         left: 30vw;
+                        transform: translateX(-50%);
                         background-color: rgb(129, 22, 22);
                         color: rgb(255, 255, 255);
                         padding: 2vw 4vw;
                         text-align: center;
                         font-family: Arial, Helvetica, sans-serif;
                         font-weight: bold;
-                        text-align: center;
+                        text-decoration: none;
                         font-size: 18px;
+                        -webkit-transform: translateX(-50%);
+                        -moz-transform: translateX(-50%);
+                        -ms-transform: translateX(-50%);
+                        -o-transform: translateX(-50%);
                     }
                     /*-----------------------siguiente paso----------------------*/
                     
@@ -247,7 +252,7 @@
                         font-family: sans-serif;
                         font-weight: bold;
                         padding: 1.5vw 2vw;
-                        background-color: rgb(11, 22, 47);
+                        background-color: rgb(129, 22, 22);
                         color: rgb(255, 255, 255);
                         text-decoration: none;
                         margin: 2vw 4vw 0vw 0vw;
@@ -255,8 +260,8 @@
                     
                     .box:hover {
                         background-color: rgb(255, 255, 255);
-                        color: rgb(0, 0, 0);
-                        border: solid black;
+                        color: rgb(83, 22, 22);
+                        border: solid rgb(109, 26, 26);
                         text-decoration: none;
                         transition: 400ms;
                         -webkit-transition: 400ms;
@@ -265,6 +270,24 @@
                         -o-transition: 400ms;
                     }
                     /*----------------------------actividades----------*/
+                    
+                    .stagger-visualizer {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        width: 17rem;
+                        height: 17rem;
+                    }
+                    
+                    .stagger-visualizer div {
+                        /*position: absolute;*/
+                        width: 1rem;
+                        height: 1rem;
+                        z-index: 1;
+                        border: 1px solid #FFF;
+                        background-color: #0000;
+                    }
                     
                     .actividades {
                         position: relative;
@@ -337,18 +360,19 @@
                     /*---------------------------pastores---------------------------*/
                     
                     .pastores {
-                        height: 105vh;
-                        background: #ECE9E6;
+                        height: 150vh;
+                        background: rgb(246, 214, 197);
                         /* fallback for old browsers */
-                        background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);
+                        background: -webkit-linear-gradient(to top, rgb(245, 220, 207), rgb(250, 229, 219));
                         /* Chrome 10-25, Safari 5.1-6 */
-                        background: linear-gradient(to top, #FFFFFF, #ECE9E6);
+                        background: linear-gradient(to top, rgb(253, 224, 209), rgb(246, 222, 208));
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                     }
                     
                     #parrafo {
                         text-align: justify;
                         font-family: 'Lucida Sans';
+                        color: rgb(0, 0, 0);
                         font-size: 14px;
                         font-weight: 400;
                         position: relative;
@@ -363,7 +387,7 @@
                         text-align: center;
                         font-family: arial;
                         font-weight: bolder;
-                        color: rgb(5, 5, 5);
+                        color: rgb(0, 0, 0);
                         margin-top: 15vh;
                         font-size: 34px;
                     }
@@ -405,17 +429,17 @@
                         border: solid rgb(110, 22, 22);
                         text-decoration: none;
                     }
-                    /*---------------------------jovenees-------------*/
+                    /*-------------------------online------------*/
                     
                     .logo2 {
                         height: 100vh;
                         margin: 0%;
                         padding: 0%;
-                        background: rgba(235, 87, 87, 0.746);
+                        background: rgba(85, 80, 80, 0.746);
                         /* fallback for old browsers */
-                        background: -webkit-linear-gradient(to top, #3d3a3a50, rgba(95, 165, 245, 0.39)), url(https://live.staticflickr.com/2102/2677605718_a85e0c077c_z.jpg);
+                        background: -webkit-linear-gradient(to top, #3d3a3a50, rgba(7, 7, 7, 0.596)), url(https://scontent.flim24-1.fna.fbcdn.net/v/t1.0-9/91521086_1680454018763865_101605306882064384_o.jpg?_nc_cat=108&_nc_sid=a26aad&_nc_eui2=AeFFKhiGQNJEWlpp28ZnjGFnPrko4mEnN-0-uSjiYSc37W9Zh9Du2TdZPNfx2CPALqcfVy2L2SOfwDQeMbA8aGvY&_nc_oc=AQl4whlFIcWtJZ5cGPYvw8cf42JhoctAidPtedRXss93T_jtRdamjAbazPBvDxE2hmQ&_nc_ht=scontent.flim24-1.fna&oh=93b90ee64f5a431acf22d4683d4cd631&oe=5EB79E98);
                         /* Chrome 10-25, Safari 5.1-6 */
-                        background: linear-gradient(to top, #42414142, rgba(62, 188, 247, 0.527)), url(https://live.staticflickr.com/2102/2677605718_a85e0c077c_z.jpg);
+                        background: linear-gradient(to top, #42414142, rgba(10, 10, 10, 0.596)), url(https://scontent.flim24-1.fna.fbcdn.net/v/t1.0-9/91521086_1680454018763865_101605306882064384_o.jpg?_nc_cat=108&_nc_sid=a26aad&_nc_eui2=AeFFKhiGQNJEWlpp28ZnjGFnPrko4mEnN-0-uSjiYSc37W9Zh9Du2TdZPNfx2CPALqcfVy2L2SOfwDQeMbA8aGvY&_nc_oc=AQl4whlFIcWtJZ5cGPYvw8cf42JhoctAidPtedRXss93T_jtRdamjAbazPBvDxE2hmQ&_nc_ht=scontent.flim24-1.fna&oh=93b90ee64f5a431acf22d4683d4cd631&oe=5EB79E98);
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                         background-size: cover;
                         background-attachment: fixed;
@@ -446,6 +470,7 @@
                     .icons-redes {
                         position: relative;
                         top: 20vh;
+                        left: 10vw;
                         text-align: center;
                         font-size: 40px;
                         margin-right: 2vw;
@@ -494,8 +519,6 @@
                     /*-------------------jovenes--------------------*/
                     
                     .jovenes {
-                        position: relative;
-                        top: 40vh;
                         height: 100vh;
                         margin: 0%;
                         padding: 0%;
@@ -565,16 +588,23 @@
                     }
                     /*---------------ofrendas---------------------*/
                     
+                    .pie-text {
+                        position: relative;
+                        top: 15vh;
+                    }
+                    
                     .pie {
                         position: relative;
-                        top: 318vh;
+                        top: 323vh;
                         height: 80vh;
-                        background: #232526;
+                        background: #232526dc;
                         /* fallback for old browsers */
-                        background: -webkit-linear-gradient(to right, #414345, #232526);
+                        background: -webkit-linear-gradient(to right, #4143459f, #23252686), url(https://live.staticflickr.com/2102/2677605718_a85e0c077c_z.jpg);
                         /* Chrome 10-25, Safari 5.1-6 */
-                        background: linear-gradient(to right, #414345, #232526);
+                        background: linear-gradient(to right, #414345a6, #2325268c), url(https://live.staticflickr.com/2102/2677605718_a85e0c077c_z.jpg);
                         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                        background-size: cover;
+                        background-attachment: fixed;
                     }
                     
                     #direcciones {
